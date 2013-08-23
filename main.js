@@ -15,7 +15,8 @@ module.exports = function(grunt) {
 		grunt.log.verbose.subhead("Spawning");
 
 		if (grunt.option("no-write")) {
-			grunt.log.verbose.writeln("Not actually spawning '" + options.cmd.cyan + "', spawning '" + "echo test".cyan + "' instead");
+			grunt.log.verbose.writeflags(options);
+			grunt.log.verbose.writeln("no-write".cyan + " defined, modifying flags");
 
 			_.extend(options, {
 				"cmd": "echo",
