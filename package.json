@@ -1,0 +1,32 @@
+{
+	"name": "grunt-util-spawn",
+	"description": "Grunt util for spawning processes",
+	"version": "0.0.1-0",
+	"author": {
+		"name": "Mikael Karon",
+		"email": "mikael@karon.se"
+	},
+	"maintainers": [
+		{
+			"name": "Mikael Karon",
+			"web": "http://github.com/mikaelkaron"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mikaelkaron/grunt-util-spawn.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mikaelkaron/grunt-util-spawn/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mikael.mit-license.org/"
+		}
+	],
+	"main": "main.js",
+	"peerDependencies": {
+		"grunt": "~0.4.1"
+	}
+}
